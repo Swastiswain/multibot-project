@@ -1,0 +1,52 @@
+# ─── Python ───────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+*.egg
+
+# ─── Environment ──────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Database (runtime) ───────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ─── Logs ─────────────────────────────────
+*.log
+logs/
+
+# ─── ML Models ────────────────────────────
+intent_model/
+*.safetensors
+*.pt
+*.ckpt
+*.bin
+
+# ─── Node / Frontend ──────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/node_modules/.vite/
+
+# ─── Jupyter ──────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ─── OS ───────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+ehthumbs.db
+
+# ─── IDEs ─────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
